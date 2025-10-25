@@ -38,70 +38,70 @@ const translations = {
       getStarted: "Get Started",
     },
     hero: {
-      title: "AI-Powered Agriculture for the Future",
+      title: "Arina: Smart Agriculture with AI",
       subtitle:
-        "Arina combines cutting-edge artificial intelligence with agricultural expertise to help farmers optimize yields, reduce costs, and make data-driven decisions.",
+        "An innovative agricultural platform that combines artificial intelligence with farming expertise to help farmers optimize yields, reduce costs, and make data-driven decisions for sustainable agriculture.",
       startTrial: "Start Free Trial",
       watchDemo: "Watch Demo",
       yieldIncrease: "+35% Yield Increase",
     },
     problemSolution: {
-      challengeTitle: "The Challenge Farmers Face",
+      challengeTitle: "Agricultural Challenges Today",
       challenges: [
         "Unpredictable weather patterns affecting crop yields",
-        "Rising input costs with uncertain returns",
-        "Limited access to real-time agricultural insights",
-        "Complex decision-making without data support",
+        "Rising input costs with uncertain returns on investment",
+        "Limited access to real-time agricultural data and insights",
+        "Complex decision-making without proper analytical support",
       ],
-      solutionTitle: "Our AI Solution",
+      solutionTitle: "Our AI-Powered Solution",
       solutions: [
+        "Smart agricultural analysis with gemini",
         "Predictive analytics for weather and crop performance",
-        "ROI optimization through intelligent resource allocation",
-        "Real-time monitoring and actionable insights",
-        "AI-powered recommendations for every decision",
+        "Real-time monitoring and actionable farming insights",
+        "Data-driven recommendations for optimal decision making",
       ],
     },
     features: {
-      title: "Powerful AI Features",
-      subtitle: "Comprehensive agricultural intelligence tools designed to transform your farming operations",
+      title: "Our Features",
+      subtitle: "Comprehensive agricultural intelligence tools designed to transform modern farming operations",
       hpp: {
-        title: "HPP Calculations",
-        description: "Advanced Harvest Prediction Protocol calculations for accurate yield forecasting",
+        title: "Cost Analysis",
+        description: "Comprehensive cost of production analysis for agricultural economic planning and budgeting",
       },
       forecasting: {
         title: "Smart Forecasting",
-        description: "Weather and market trend predictions powered by machine learning algorithms",
+        description: "Weather predictions and crop yield forecasting",
       },
       roi: {
-        title: "ROI Analysis",
-        description: "Comprehensive return on investment analysis for every farming decision",
+        title: "ROI Calculator",
+        description: "Return on investment analysis tools specifically designed for agricultural investments",
       },
       chatbot: {
-        title: "AI Chatbot",
-        description: "24/7 agricultural expert assistance through our intelligent chatbot",
+        title: "AI Assistant",
+        description: "24/7 agricultural expert assistance through our intelligent AI-powered chatbot Powered by Gemini",
       },
     },
     howItWorks: {
       title: "How Arina Works",
-      subtitle: "Simple steps to transform your agricultural operations with AI",
+      subtitle: "Simple steps to transform your agricultural operations with artificial intelligence",
       steps: [
         {
-          title: "Connect Your Data",
-          description: "Integrate your farm data, weather stations, and IoT sensors with our platform",
+          title: "Connect Your Farm Data",
+          description: "Integrate your farm data, weather information, and agricultural sensors with our platform",
         },
         {
-          title: "AI Analysis",
-          description: "Our AI algorithms analyze your data to identify patterns and opportunities",
+          title: "AI Analysis & Processing",
+          description: "Our AI algorithms analyze your data to identify patterns, trends, and optimization opportunities",
         },
         {
-          title: "Get Insights",
-          description: "Receive actionable recommendations and predictions to optimize your operations",
+          title: "Get Smart Insights",
+          description: "Receive actionable recommendations and predictions to optimize your farming operations",
         },
       ],
     },
     benefits: {
       title: "Why Choose Arina?",
-      subtitle: "Proven results that make a real difference to your farming business",
+      subtitle: "Proven benefits that make a real difference to your agricultural business",
       risk: {
         title: "Risk Reduction",
         description: "Minimize crop losses with predictive analytics and early warning systems",
@@ -121,71 +121,112 @@ const translations = {
     about: {
       title: "About Arina",
       paragraph1:
-        "Founded by agricultural scientists and AI experts, Arina was born from the vision of making advanced technology accessible to farmers worldwide. We believe that artificial intelligence can revolutionize agriculture while preserving traditional farming wisdom.",
+        "Arina is an innovative agricultural technology platform that harnesses the power of artificial intelligence to revolutionize farming practices. We combine cutting-edge AI technology with deep agricultural expertise to create solutions that are both powerful and practical.",
       paragraph2:
-        "Our platform combines decades of agricultural research with cutting-edge machine learning to provide farmers with the tools they need to thrive in an increasingly complex world.",
+        "Our platform is designed to help farmers make smarter decisions through data-driven insights, ultimately leading to increased productivity, reduced costs, and more sustainable farming practices for the future of agriculture.",
       farmersServed: "Farmers Served",
-      countries: "Countries",
+      countries: "Countries Supported",
     },
     team: {
       title: "Meet Our Team",
-      subtitle: "Agricultural experts and AI pioneers working together to transform farming",
+      subtitle: "Agricultural experts and AI specialists working together to transform farming",
       leadership: "Leadership",
-      executive: "Executive Team",
-      management: "Management Team",
+      executive: "Development Team",
+      management: "Advisory Board",
       ceo: {
-        name: "Dr. Sarah Chen",
+        name: "Ade Surya Ananda",
         role: "CEO & Founder",
-        bio: "Agricultural AI researcher with 15+ years experience",
+        subtitle: "Chief Executive Officer | Software Developer",
+        photo: "/img/Ade.png", // Tambahkan path foto
       },
       executives: [
         {
-          name: "Michael Rodriguez",
-          role: "CTO",
-          bio: "Former Google AI engineer specializing in agricultural tech",
+          name: "Daffa Radityo Adjiefirmansyah",
+          role: "Developer Lead",
+          subtitle: "Technology Lead | Software Developer",
+          photo: "/img/Daffa Radityo.jpg", // Tambahkan path foto
+          team: [
+            {
+              name: "Athallah Dzaki Anggoro Seputro",
+              role: "Back End Web Developer",
+              photo: "/img/Anggor.jpeg",
+            },
+            {
+              name: "Rafsan",
+              role: "Front End Web Developer",
+              photo: "/img/Rafsan.jpg",
+            },
+             {
+              name: "Daffa Radityo Adjiefirmansyah",
+              role: "Front End Web Developer",
+              photo: "/img/Rafsan.jpg",
+            },
+          ],
         },
         {
-          name: "Dr. Emily Watson",
-          role: "Head of Research",
-          bio: "PhD in Agricultural Sciences, AI/ML expert",
+          name: "Mutiara Shabrina",
+          role: "Project Manager",
+          subtitle: "Product Designer Lead | Product Designer",
+          photo: "/team/mutiara.jpg",
+          team: [
+            {
+              name: "Rifat Bramantiyadi",
+              role: "UI/UX Designer",
+              photo: "/team/rifat.jpg",
+            },
+            {
+              name: "Aipha Casey Emerich Kembuan",
+              role: "UI/UX Designer",
+              photo: "/team/aipha.jpg",
+            },
+          ],
         },
-      ],
-      managers: [
         {
-          name: "James Park",
-          role: "Product Manager",
-          bio: "10+ years in AgTech product development",
+          name: "Najma Brighitta Arifia",
+          role: "Marketing Lead",
+          subtitle: "Marketing Lead | Marketing Strategist",
+          photo: "/team/najma.jpg",
+          team: [
+            {
+              name: "Nazla Khairunnisa",
+              role: "Marketing Specialist",
+              photo: "/team/nazla.jpg",
+            },
+          ],
         },
         {
-          name: "Lisa Thompson",
-          role: "Data Science Lead",
-          bio: "Specialist in predictive agricultural modeling",
-        },
-        {
-          name: "Carlos Mendez",
-          role: "Engineering Manager",
-          bio: "Full-stack development for agricultural platforms",
+          name: "Azel Khansa Ayusta",
+          role: "Finance Lead",
+          subtitle: "Finance Lead | Financial Analyst",
+          photo: "/team/azel.jpg",
+          team: [
+            {
+              name: "Salma Asna Musyaffi",
+              role: "Finance Specialist",
+              photo: "/team/salma.jpg",
+            },
+          ],
         },
       ],
     },
     faq: {
       title: "Frequently Asked Questions",
-      subtitle: "Everything you need to know about Arina",
+      subtitle: "Everything you need to know about Arina's AI-powered agricultural platform",
       questions: [
         {
           question: "How accurate are Arina's predictions?",
           answer:
-            "Our AI models achieve 85-95% accuracy in yield predictions and weather forecasting, continuously improving with more data.",
+            "Our AI models achieve 85-95% accuracy in yield predictions and weather forecasting, continuously improving with more data and advanced algorithms.",
         },
         {
           question: "What types of farms can use Arina?",
           answer:
-            "Arina works with all types of farms - from small family operations to large commercial enterprises, supporting various crops and livestock.",
+            "Arina works with all types of farms - from small family operations to large commercial enterprises, supporting various crops and agricultural practices.",
         },
         {
-          question: "How long does it take to see results?",
+          question: "How quickly can I see results?",
           answer:
-            "Most farmers see initial insights within 24-48 hours of setup, with comprehensive analysis available after one growing cycle.",
+            "Most farmers see initial insights within 24-48 hours of setup, with comprehensive analysis and recommendations available after one growing cycle.",
         },
         {
           question: "Is my farm data secure?",
@@ -195,7 +236,7 @@ const translations = {
         {
           question: "Do I need special equipment?",
           answer:
-            "Arina works with existing farm equipment and sensors. We also offer guidance on cost-effective IoT solutions if needed.",
+            "Arina works with existing farm equipment and sensors. We also provide guidance on cost-effective IoT solutions if needed for enhanced functionality.",
         },
       ],
     },
@@ -205,8 +246,8 @@ const translations = {
       company: "Company",
       contact: "Contact",
       productLinks: ["Features", "Pricing", "API", "Integrations"],
-      companyLinks: ["About Us", "Careers", "Blog", "Press"],
-      copyright: "© 2024 Arina. All rights reserved. | Privacy Policy | Terms of Service",
+      companyLinks: ["About Us", "Careers", "Blog", "Support"],
+      copyright: "© 2025 Arina. All rights reserved. | Privacy Policy | Terms of Service",
     },
   },
   id: {
@@ -218,70 +259,70 @@ const translations = {
       getStarted: "Mulai Sekarang",
     },
     hero: {
-      title: "Pertanian Bertenaga AI untuk Masa Depan",
+      title: "Arina: Pertanian Cerdas dengan AI",
       subtitle:
-        "Arina menggabungkan kecerdasan buatan terdepan dengan keahlian pertanian untuk membantu petani mengoptimalkan hasil panen, mengurangi biaya, dan membuat keputusan berdasarkan data.",
+        "Platform pertanian inovatif yang menggabungkan kecerdasan buatan dengan keahlian bertani untuk membantu petani mengoptimalkan hasil panen, mengurangi biaya, dan membuat keputusan berbasis data untuk pertanian berkelanjutan.",
       startTrial: "Mulai Uji Coba Gratis",
       watchDemo: "Tonton Demo",
       yieldIncrease: "+35% Peningkatan Hasil",
     },
     problemSolution: {
-      challengeTitle: "Tantangan yang Dihadapi Petani",
+      challengeTitle: "Tantangan Pertanian Saat Ini",
       challenges: [
         "Pola cuaca yang tidak dapat diprediksi mempengaruhi hasil panen",
-        "Biaya input yang meningkat dengan hasil yang tidak pasti",
-        "Akses terbatas ke wawasan pertanian real-time",
-        "Pengambilan keputusan yang kompleks tanpa dukungan data",
+        "Biaya input yang meningkat dengan hasil investasi yang tidak pasti",
+        "Akses terbatas ke data dan wawasan pertanian real-time",
+        "Pengambilan keputusan yang kompleks tanpa dukungan analisis yang tepat",
       ],
-      solutionTitle: "Solusi AI Kami",
+      solutionTitle: "Solusi Bertenaga AI Kami",
       solutions: [
+        "Analisis pertanian cerdas dengan algoritma machine learning",
         "Analitik prediktif untuk cuaca dan kinerja tanaman",
-        "Optimisasi ROI melalui alokasi sumber daya yang cerdas",
-        "Pemantauan real-time dan wawasan yang dapat ditindaklanjuti",
-        "Rekomendasi bertenaga AI untuk setiap keputusan",
+        "Pemantauan real-time dan wawasan pertanian yang dapat ditindaklanjuti",
+        "Rekomendasi berbasis data untuk pengambilan keputusan optimal",
       ],
     },
     features: {
       title: "Fitur AI yang Powerful",
-      subtitle: "Alat intelijen pertanian komprehensif yang dirancang untuk mentransformasi operasi pertanian Anda",
+      subtitle: "Alat intelijen pertanian komprehensif yang dirancang untuk mentransformasi operasi pertanian modern",
       hpp: {
-        title: "Kalkulasi HPP",
-        description: "Kalkulasi Protokol Prediksi Panen lanjutan untuk peramalan hasil yang akurat",
+        title: "Analisis Biaya",
+        description: "Analisis komprehensif harga pokok produksi untuk perencanaan ekonomi dan anggaran pertanian",
       },
       forecasting: {
         title: "Peramalan Cerdas",
-        description: "Prediksi cuaca dan tren pasar yang didukung oleh algoritma pembelajaran mesin",
+        description: "Prediksi cuaca dan prakiraan hasil panen menggunakan algoritma machine learning canggih",
       },
       roi: {
-        title: "Analisis ROI",
-        description: "Analisis return on investment komprehensif untuk setiap keputusan pertanian",
+        title: "Kalkulator ROI",
+        description: "Alat analisis return on investment yang dirancang khusus untuk investasi pertanian",
       },
       chatbot: {
-        title: "Chatbot AI",
-        description: "Bantuan ahli pertanian 24/7 melalui chatbot cerdas kami",
+        title: "Asisten AI",
+        description: "Bantuan ahli pertanian 24/7 melalui chatbot cerdas bertenaga AI kami",
       },
     },
     howItWorks: {
       title: "Cara Kerja Arina",
-      subtitle: "Langkah sederhana untuk mentransformasi operasi pertanian Anda dengan AI",
+      subtitle: "Langkah sederhana untuk mentransformasi operasi pertanian Anda dengan kecerdasan buatan",
       steps: [
         {
-          title: "Hubungkan Data Anda",
-          description: "Integrasikan data pertanian, stasiun cuaca, dan sensor IoT Anda dengan platform kami",
+          title: "Hubungkan Data Pertanian",
+          description: "Integrasikan data pertanian, informasi cuaca, dan sensor pertanian Anda dengan platform kami",
         },
         {
-          title: "Analisis AI",
-          description: "Algoritma AI kami menganalisis data Anda untuk mengidentifikasi pola dan peluang",
+          title: "Analisis & Pemrosesan AI",
+          description: "Algoritma AI kami menganalisis data Anda untuk mengidentifikasi pola, tren, dan peluang optimisasi",
         },
         {
-          title: "Dapatkan Wawasan",
-          description: "Terima rekomendasi dan prediksi yang dapat ditindaklanjuti untuk mengoptimalkan operasi Anda",
+          title: "Dapatkan Wawasan Cerdas",
+          description: "Terima rekomendasi dan prediksi yang dapat ditindaklanjuti untuk mengoptimalkan operasi pertanian",
         },
       ],
     },
     benefits: {
       title: "Mengapa Memilih Arina?",
-      subtitle: "Hasil terbukti yang membuat perbedaan nyata untuk bisnis pertanian Anda",
+      subtitle: "Manfaat terbukti yang membuat perbedaan nyata untuk bisnis pertanian Anda",
       risk: {
         title: "Pengurangan Risiko",
         description: "Minimalkan kerugian tanaman dengan analitik prediktif dan sistem peringatan dini",
@@ -301,71 +342,100 @@ const translations = {
     about: {
       title: "Tentang Arina",
       paragraph1:
-        "Didirikan oleh ilmuwan pertanian dan ahli AI, Arina lahir dari visi untuk membuat teknologi canggih dapat diakses oleh petani di seluruh dunia. Kami percaya bahwa kecerdasan buatan dapat merevolusi pertanian sambil melestarikan kebijaksanaan pertanian tradisional.",
+        "Arina adalah platform teknologi pertanian inovatif yang memanfaatkan kekuatan kecerdasan buatan untuk merevolusi praktik bertani. Kami menggabungkan teknologi AI terdepan dengan keahlian pertanian mendalam untuk menciptakan solusi yang kuat dan praktis.",
       paragraph2:
-        "Platform kami menggabungkan puluhan tahun penelitian pertanian dengan pembelajaran mesin terdepan untuk memberikan petani alat yang mereka butuhkan untuk berkembang di dunia yang semakin kompleks.",
+        "Platform kami dirancang untuk membantu petani membuat keputusan yang lebih cerdas melalui wawasan berbasis data, yang pada akhirnya mengarah pada peningkatan produktivitas, pengurangan biaya, dan praktik pertanian yang lebih berkelanjutan untuk masa depan pertanian.",
       farmersServed: "Petani Dilayani",
-      countries: "Negara",
+      countries: "Negara Didukung",
     },
     team: {
       title: "Kenali Tim Kami",
-      subtitle: "Ahli pertanian dan pionir AI bekerja sama untuk mentransformasi pertanian",
+      subtitle: "Para ahli pertanian dan spesialis AI bekerja sama untuk mentransformasi pertanian",
       leadership: "Kepemimpinan",
-      executive: "Tim Eksekutif",
-      management: "Tim Manajemen",
+      executive: "Tim Pengembang",
+      management: "Tim Keuangan dan Marketing",
       ceo: {
-        name: "Dr. Sarah Chen",
-        role: "CEO & Pendiri",
-        bio: "Peneliti AI pertanian dengan pengalaman 15+ tahun",
+        name: "Ade Surya Ananda",
+        role: "CEO & Founder",
+        subtitle: "Chief Executive Officer | Software Developer",
+        photo: "/Ade.png", 
       },
       executives: [
         {
-          name: "Michael Rodriguez",
-          role: "CTO",
-          bio: "Mantan insinyur AI Google yang mengkhususkan diri dalam teknologi pertanian",
+          name: "Daffa Radityo Adjiefirmansyah",
+          role: "Developer Lead",
+          subtitle: "Technology Lead | Software Developer",
+          photo: "/Daffa Radityo.jpg", 
+          team: [
+            {
+              name: "Atthalah Dzaki Anggoro Seputro",
+              role: "Full Stack Web Developer",
+              photo: "/Anggur.jpeg",
+            },
+            {
+              name: "Rafsan",
+              role: "Front End Web Developer",
+              photo: "/rafsan.jpg",
+            },
+          ],
         },
         {
-          name: "Dr. Emily Watson",
-          role: "Kepala Penelitian",
-          bio: "PhD dalam Ilmu Pertanian, ahli AI/ML",
-        },
-      ],
-      managers: [
-        {
-          name: "James Park",
-          role: "Manajer Produk",
-          bio: "10+ tahun dalam pengembangan produk AgTech",
+          name: "Mutiara Shabrina",
+          role: "Project Manager",
+          subtitle: "Product Manager | Product Designer",
+          photo: "/Yaya.png",
         },
         {
-          name: "Lisa Thompson",
-          role: "Kepala Data Science",
-          bio: "Spesialis dalam pemodelan prediktif pertanian",
+          name: "Najma Brighitta Arifia",
+          role: "Marketing Lead & Exploratory Research and Development Lead ",
+          subtitle: "Marketing Lead & Exploratory Research and Development Lead ",
+          photo: "/Gita.png",
+          team: [
+            {
+              name: "Shabirah Lusiana W.",
+              role: "Marketing Specialist",
+              photo: "",
+            },
+          ],
         },
         {
-          name: "Carlos Mendez",
-          role: "Manajer Engineering",
-          bio: "Pengembangan full-stack untuk platform pertanian",
+          name: "Azel Khansa Ayusta",
+          role: "Finance Lead",
+          subtitle: "Finance Lead | Financial Analyst",
+          photo: "/Azel.png",
+          team: [
+            {
+              name: "Salma Asna Musyaffi",
+              role: "Finance Specialist",
+              photo: "/Asna.png",
+            },
+            {
+              name: "Nazla Khairunnisa",
+              role: "Finance Specialist",
+              photo: "/Nazla.png",
+            },
+          ],
         },
       ],
     },
     faq: {
       title: "Pertanyaan yang Sering Diajukan",
-      subtitle: "Semua yang perlu Anda ketahui tentang Arina",
+      subtitle: "Semua yang perlu Anda ketahui tentang platform pertanian bertenaga AI Arina",
       questions: [
         {
           question: "Seberapa akurat prediksi Arina?",
           answer:
-            "Model AI kami mencapai akurasi 85-95% dalam prediksi hasil panen dan peramalan cuaca, terus meningkat dengan lebih banyak data.",
+            "Model AI kami mencapai akurasi 85-95% dalam prediksi hasil panen dan peramalan cuaca, terus meningkat dengan lebih banyak data dan algoritma canggih.",
         },
         {
           question: "Jenis pertanian apa yang bisa menggunakan Arina?",
           answer:
-            "Arina bekerja dengan semua jenis pertanian - dari operasi keluarga kecil hingga perusahaan komersial besar, mendukung berbagai tanaman dan ternak.",
+            "Arina bekerja dengan semua jenis pertanian - dari operasi keluarga kecil hingga perusahaan komersial besar, mendukung berbagai tanaman dan praktik pertanian.",
         },
         {
-          question: "Berapa lama waktu yang dibutuhkan untuk melihat hasil?",
+          question: "Seberapa cepat saya bisa melihat hasil?",
           answer:
-            "Sebagian besar petani melihat wawasan awal dalam 24-48 jam setelah setup, dengan analisis komprehensif tersedia setelah satu siklus pertumbuhan.",
+            "Sebagian besar petani melihat wawasan awal dalam 24-48 jam setelah setup, dengan analisis komprehensif dan rekomendasi tersedia setelah satu siklus pertumbuhan.",
         },
         {
           question: "Apakah data pertanian saya aman?",
@@ -375,19 +445,18 @@ const translations = {
         {
           question: "Apakah saya memerlukan peralatan khusus?",
           answer:
-            "Arina bekerja dengan peralatan pertanian dan sensor yang ada. Kami juga menawarkan panduan tentang solusi IoT yang hemat biaya jika diperlukan.",
+            "Arina bekerja dengan peralatan pertanian dan sensor yang ada. Kami juga memberikan panduan tentang solusi IoT yang hemat biaya jika diperlukan untuk fungsionalitas yang ditingkatkan.",
         },
       ],
     },
     footer: {
-      description:
-        "Memberdayakan petani dengan wawasan bertenaga AI untuk pertanian yang berkelanjutan dan menguntungkan.",
+      description: "Memberdayakan petani dengan wawasan bertenaga AI untuk pertanian yang berkelanjutan dan menguntungkan.",
       product: "Produk",
       company: "Perusahaan",
       contact: "Kontak",
       productLinks: ["Fitur", "Harga", "API", "Integrasi"],
-      companyLinks: ["Tentang Kami", "Karir", "Blog", "Pers"],
-      copyright: "© 2024 Arina. Semua hak dilindungi. | Kebijakan Privasi | Syarat Layanan",
+      companyLinks: ["Tentang Kami", "Karir", "Blog", "Dukungan"],
+      copyright: "© 2025 Arina. Semua hak dilindungi. | Kebijakan Privasi | Syarat Layanan",
     },
   },
 }
@@ -424,8 +493,8 @@ export default function ArinaLanding() {
   const [expandedFaq, setExpandedFaq] = useState<string | null>(null)
   const [executiveCarousel, setExecutiveCarousel] = useState(0)
   const [managerCarousel, setManagerCarousel] = useState(0)
-  const [isDarkMode, setIsDarkMode] = useState(false)
-  const [language, setLanguage] = useState<"en" | "id">("en")
+  const [isDarkMode, setIsDarkMode] = useState(false) // Already set to false for light mode
+  const [language, setLanguage] = useState<"en" | "id">("id")
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   // Animation refs
@@ -634,7 +703,7 @@ export default function ArinaLanding() {
                 {t.hero.title}
               </h1>
               <p
-                className={`text-xl ${isDarkMode ? "text-gray-200" : "text-[#042e25]"} mb-8 leading-relaxed transition-colors duration-300`}
+                className={`text-xl ${isDarkMode ? "text-gray-300" : "text-gray-600"} mb-8 leading-relaxed transition-colors duration-300`}
               >
                 {t.hero.subtitle}
               </p>
@@ -644,26 +713,17 @@ export default function ArinaLanding() {
                 >
                   {t.hero.startTrial}
                 </button>
-                <button
-                  className={`border-2 ${isDarkMode ? "border-[#dff944] text-[#dff944] hover:bg-[#dff944] hover:text-[#052f28]" : "border-[#052f28] text-[#052f28] hover:bg-[#052f28] hover:text-white"} px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 hover:scale-105`}
-                >
-                  {t.hero.watchDemo}
-                </button>
               </div>
             </div>
             <div
               className={`relative transition-all duration-1000 delay-300 ${heroInView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"}`}
             >
-              <img
-                src="/placeholder.svg?height=500&width=600"
-                alt="AI-powered farming dashboard"
-                className="rounded-2xl shadow-2xl transition-transform duration-500 hover:scale-105"
-              />
-              <div className="absolute -bottom-6 -left-6 bg-[#dff944] p-4 rounded-xl shadow-lg animate-bounce">
-                <div className="flex items-center space-x-2">
-                  <TrendingUp className="h-6 w-6 text-[#052f28]" />
-                  <span className="font-semibold text-[#052f28]">{t.hero.yieldIncrease}</span>
-                </div>
+              <div className="flex items-center justify-center">
+                <img
+                  src="/Arina logo.png"
+                  alt="Arina Logo - AI-powered farming platform"
+                  className="w-full max-w-md h-auto transition-transform duration-500 hover:scale-105"
+                />
               </div>
             </div>
           </div>
@@ -693,7 +753,7 @@ export default function ArinaLanding() {
                     style={{ transitionDelay: `${index * 100}ms` }}
                   >
                     <div className="w-2 h-2 bg-red-500 rounded-full mt-3 animate-pulse"></div>
-                    <p className={`${isDarkMode ? "text-gray-200" : "text-[#042e25]"} transition-colors duration-300`}>
+                    <p className={`${isDarkMode ? "text-gray-300" : "text-gray-700"} transition-colors duration-300`}>
                       {challenge}
                     </p>
                   </div>
@@ -716,7 +776,7 @@ export default function ArinaLanding() {
                     style={{ transitionDelay: `${(index + 4) * 100}ms` }}
                   >
                     <div className="w-2 h-2 bg-[#a0e019] rounded-full mt-3 animate-pulse"></div>
-                    <p className={`${isDarkMode ? "text-gray-200" : "text-[#042e25]"} transition-colors duration-300`}>
+                    <p className={`${isDarkMode ? "text-gray-300" : "text-gray-700"} transition-colors duration-300`}>
                       {solution}
                     </p>
                   </div>
@@ -743,30 +803,42 @@ export default function ArinaLanding() {
               {t.features.title}
             </h2>
             <p
-              className={`text-xl ${isDarkMode ? "text-gray-200" : "text-[#042e25]"} max-w-3xl mx-auto transition-colors duration-300`}
+              className={`text-xl ${isDarkMode ? "text-gray-300" : "text-gray-600"} max-w-3xl mx-auto transition-colors duration-300`}
             >
               {t.features.subtitle}
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: Calculator, title: t.features.hpp.title, description: t.features.hpp.description },
+              {
+                icon: Calculator,
+                title: t.features.hpp.title,
+                description: t.features.hpp.description,
+              },
               {
                 icon: TrendingUp,
                 title: t.features.forecasting.title,
                 description: t.features.forecasting.description,
               },
-              { icon: BarChart3, title: t.features.roi.title, description: t.features.roi.description },
-              { icon: MessageCircle, title: t.features.chatbot.title, description: t.features.chatbot.description },
+              { 
+                icon: BarChart3, 
+                title: t.features.roi.title, 
+                description: t.features.roi.description 
+              },
+              { 
+                icon: MessageCircle, 
+                title: t.features.chatbot.title, 
+                description: t.features.chatbot.description 
+              },
             ].map((feature, index) => (
               <div
                 key={index}
-                className={`bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 ${featuresInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+                className={`${isDarkMode ? "bg-[#0a2b24] border border-[#dff944]/20" : "bg-white border border-gray-200"} p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 ${featuresInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
-                <feature.icon className="h-12 w-12 text-[#a0e019] mb-4 transition-transform duration-300 hover:scale-110" />
-                <h3 className="text-xl font-semibold text-[#052f28] mb-3">{feature.title}</h3>
-                <p className="text-[#042e25]">{feature.description}</p>
+                <feature.icon className={`h-12 w-12 ${isDarkMode ? "text-[#dff944]" : "text-[#a0e019]"} mb-4 transition-transform duration-300 hover:scale-110`} />
+                <h3 className={`text-xl font-semibold ${isDarkMode ? "text-white" : "text-[#052f28]"} mb-3`}>{feature.title}</h3>
+                <p className={`${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>{feature.description}</p>
               </div>
             ))}
           </div>
@@ -789,7 +861,7 @@ export default function ArinaLanding() {
               {t.howItWorks.title}
             </h2>
             <p
-              className={`text-xl ${isDarkMode ? "text-gray-200" : "text-[#042e25]"} max-w-3xl mx-auto transition-colors duration-300`}
+              className={`text-xl ${isDarkMode ? "text-gray-300" : "text-gray-600"} max-w-3xl mx-auto transition-colors duration-300`}
             >
               {t.howItWorks.subtitle}
             </p>
@@ -815,7 +887,7 @@ export default function ArinaLanding() {
                 >
                   {step.title}
                 </h3>
-                <p className={`${isDarkMode ? "text-gray-200" : "text-[#042e25]"} transition-colors duration-300`}>
+                <p className={`${isDarkMode ? "text-gray-300" : "text-gray-600"} transition-colors duration-300`}>
                   {step.description}
                 </p>
               </div>
@@ -839,7 +911,7 @@ export default function ArinaLanding() {
               {t.benefits.title}
             </h2>
             <p
-              className={`text-xl ${isDarkMode ? "text-gray-200" : "text-[#042e25]"} max-w-3xl mx-auto transition-colors duration-300`}
+              className={`text-xl ${isDarkMode ? "text-gray-300" : "text-gray-600"} max-w-3xl mx-auto transition-colors duration-300`}
             >
               {t.benefits.subtitle}
             </p>
@@ -867,13 +939,13 @@ export default function ArinaLanding() {
             ].map((benefit, index) => (
               <div
                 key={index}
-                className={`bg-white p-8 rounded-xl shadow-md transition-all duration-700 hover:shadow-xl hover:scale-105 ${benefitsInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+                className={`${isDarkMode ? "bg-[#0a2b24] border border-[#dff944]/20" : "bg-white border border-gray-200"} p-8 rounded-xl shadow-md transition-all duration-700 hover:shadow-xl hover:scale-105 ${benefitsInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
                 style={{ transitionDelay: `${index * 200}ms` }}
               >
-                <benefit.icon className="h-12 w-12 text-[#a0e019] mb-4 transition-transform duration-300 hover:scale-110" />
-                <h3 className="text-xl font-semibold text-[#052f28] mb-3">{benefit.title}</h3>
-                <p className="text-[#042e25] mb-4">{benefit.description}</p>
-                <div className="text-2xl font-bold text-[#a0e019] animate-pulse">{benefit.stat}</div>
+                <benefit.icon className={`h-12 w-12 ${isDarkMode ? "text-[#dff944]" : "text-[#a0e019]"} mb-4 transition-transform duration-300 hover:scale-110`} />
+                <h3 className={`text-xl font-semibold ${isDarkMode ? "text-white" : "text-[#052f28]"} mb-3`}>{benefit.title}</h3>
+                <p className={`${isDarkMode ? "text-gray-300" : "text-gray-600"} mb-4`}>{benefit.description}</p>
+                <div className={`text-2xl font-bold ${isDarkMode ? "text-[#dff944]" : "text-[#a0e019]"} animate-pulse`}>{benefit.stat}</div>
               </div>
             ))}
           </div>
@@ -897,12 +969,12 @@ export default function ArinaLanding() {
                 {t.about.title}
               </h2>
               <p
-                className={`text-lg ${isDarkMode ? "text-gray-200" : "text-[#042e25]"} mb-6 leading-relaxed transition-colors duration-300`}
+                className={`text-lg ${isDarkMode ? "text-gray-300" : "text-gray-700"} mb-6 leading-relaxed transition-colors duration-300`}
               >
                 {t.about.paragraph1}
               </p>
               <p
-                className={`text-lg ${isDarkMode ? "text-gray-200" : "text-[#042e25]"} mb-8 leading-relaxed transition-colors duration-300`}
+                className={`text-lg ${isDarkMode ? "text-gray-300" : "text-gray-700"} mb-8 leading-relaxed transition-colors duration-300`}
               >
                 {t.about.paragraph2}
               </p>
@@ -911,8 +983,8 @@ export default function ArinaLanding() {
                   className={`text-center transition-all duration-700 ${aboutInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
                   style={{ transitionDelay: "300ms" }}
                 >
-                  <div className="text-3xl font-bold text-[#a0e019] mb-2 animate-pulse">10,000+</div>
-                  <div className={`${isDarkMode ? "text-gray-200" : "text-[#042e25]"} transition-colors duration-300`}>
+                  <div className={`text-3xl font-bold ${isDarkMode ? "text-[#dff944]" : "text-[#a0e019]"} mb-2 animate-pulse`}>10,000+</div>
+                  <div className={`${isDarkMode ? "text-gray-300" : "text-gray-600"} transition-colors duration-300`}>
                     {t.about.farmersServed}
                   </div>
                 </div>
@@ -920,8 +992,8 @@ export default function ArinaLanding() {
                   className={`text-center transition-all duration-700 ${aboutInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
                   style={{ transitionDelay: "500ms" }}
                 >
-                  <div className="text-3xl font-bold text-[#a0e019] mb-2 animate-pulse">50+</div>
-                  <div className={`${isDarkMode ? "text-gray-200" : "text-[#042e25]"} transition-colors duration-300`}>
+                  <div className={`text-3xl font-bold ${isDarkMode ? "text-[#dff944]" : "text-[#a0e019]"} mb-2 animate-pulse`}>50+</div>
+                  <div className={`${isDarkMode ? "text-gray-300" : "text-gray-600"} transition-colors duration-300`}>
                     {t.about.countries}
                   </div>
                 </div>
@@ -940,11 +1012,11 @@ export default function ArinaLanding() {
         </div>
       </section>
 
-      {/* Team Section with Carousels */}
+      {/* Team Section - Hierarchical Design */}
       <section
         ref={teamRef}
         id="team"
-        className={`py-16 ${isDarkMode ? "bg-[#052f28]" : "bg-[#f9fafb]"} transition-all duration-700`}
+        className={`py-20 ${isDarkMode ? "bg-gradient-to-br from-[#052f28] via-[#0a2b24] to-[#052f28]" : "bg-gradient-to-br from-[#f9fafb] via-white to-[#f9fafb]"} transition-all duration-700 relative overflow-hidden`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div
@@ -956,213 +1028,128 @@ export default function ArinaLanding() {
               {t.team.title}
             </h2>
             <p
-              className={`text-xl ${isDarkMode ? "text-gray-200" : "text-[#042e25]"} max-w-3xl mx-auto transition-colors duration-300`}
+              className={`text-xl ${isDarkMode ? "text-gray-300" : "text-gray-600"} max-w-3xl mx-auto transition-colors duration-300`}
             >
               {t.team.subtitle}
             </p>
           </div>
 
           {/* CEO Section */}
-          <div className="mb-12">
-            <h3
-              className={`text-2xl font-semibold ${isDarkMode ? "text-white" : "text-[#052f28]"} text-center mb-8 transition-colors duration-300`}
-            >
-              {t.team.leadership}
-            </h3>
+          <div className="mb-16">
             <div className="flex justify-center">
               <div
-                className={`bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-500 cursor-pointer transform hover:scale-105 max-w-md ${teamInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
-                onClick={() => toggleTeamMember("ceo")}
+                className={`group relative bg-gradient-to-br ${isDarkMode ? "from-[#0a2b24] to-[#052f28]" : "from-white to-gray-50"} p-8 rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-700 max-w-md w-full border-2 ${isDarkMode ? "border-[#dff944]/20" : "border-[#a0e019]/20"} ${teamInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
               >
-                <div className="flex items-center justify-between mb-6">
-                  <div className="flex items-center space-x-4">
-                    <div className="w-16 h-16 bg-[#052f28] rounded-full flex items-center justify-center transition-transform duration-300 hover:rotate-12">
-                      <Users className="h-8 w-8 text-white" />
-                    </div>
-                    <div>
-                      <h4 className="text-xl font-semibold text-[#052f28]">{t.team.ceo.name}</h4>
-                      <p className="text-[#042e25]">{t.team.ceo.role}</p>
+                <div className="absolute inset-0 bg-gradient-to-r from-[#a0e019]/0 via-[#dff944]/10 to-[#a0e019]/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+                
+                <div className="relative z-10 text-center">
+                  <div className="flex justify-center mb-6">
+                    <div className="relative">
+                      <div className="w-32 h-32 rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 overflow-hidden p-1">
+                        <img 
+                          src={t.team.ceo.photo} 
+                          alt={t.team.ceo.name}
+                          className="w-full h-full object-cover rounded-full"
+                        />
+                      </div>
                     </div>
                   </div>
-                  {expandedTeamMember === "ceo" ? (
-                    <Minus className="h-6 w-6 text-[#a0e019] transition-transform duration-300 hover:scale-110" />
-                  ) : (
-                    <Plus className="h-6 w-6 text-[#a0e019] transition-transform duration-300 hover:scale-110" />
-                  )}
+                  <h4 className={`text-2xl font-bold ${isDarkMode ? "text-white" : "text-[#052f28]"} mb-2`}>
+                    {t.team.ceo.name}
+                  </h4>
+                  <p className={`text-base ${isDarkMode ? "text-gray-300" : "text-gray-600"} mb-1`}>
+                    {t.team.ceo.subtitle}
+                  </p>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Team Leads Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+            {t.team.executives.map((exec: any, index: number) => (
+              <div
+                key={index}
+                className={`transition-all duration-500 ${teamInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+                style={{ transitionDelay: `${index * 150}ms` }}
+              >
+                {/* Team Lead Card */}
                 <div
-                  className={`overflow-hidden transition-all duration-300 ${
-                    expandedTeamMember === "ceo" ? "max-h-24 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`group relative bg-gradient-to-br ${isDarkMode ? "from-[#0a2b24] to-[#052f28]" : "from-white to-gray-50"} p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 border ${isDarkMode ? "border-[#dff944]/20" : "border-[#a0e019]/20"}`}
                 >
-                  <p className="text-[#042e25]">{t.team.ceo.bio}</p>
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#a0e019]/0 via-[#dff944]/5 to-[#a0e019]/0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  
+                  <div className="relative z-10">
+                    <div className="flex flex-col items-center text-center">
+                      <div className="relative mb-4">
+                        <div className={`w-24 h-24 rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 shadow-lg overflow-hidden p-1`}>
+                          <img 
+                            src={exec.photo} 
+                            alt={exec.name}
+                            className="w-full h-full object-cover rounded-full"
+                          />
+                        </div>
+                      </div>
+                      <h4 className={`font-bold text-lg ${isDarkMode ? "text-white" : "text-[#052f28]"} mb-2`}>
+                        {exec.name}
+                      </h4>
+                      <p className={`text-sm ${isDarkMode ? "text-gray-400" : "text-gray-500"} mb-4`}>
+                        {exec.subtitle}
+                      </p>
+                      
+                      {/* Show/Hide Team Button */}
+                      {exec.team && exec.team.length > 0 && (
+                        <button
+                          onClick={() => toggleTeamMember(`exec-${index}`)}
+                          className={`flex items-center space-x-1 text-xs font-medium ${isDarkMode ? "text-[#dff944] hover:text-[#a0e019]" : "text-[#0b7939] hover:text-[#052f28]"} transition-colors duration-300`}
+                        >
+                          <span>{expandedTeamMember === `exec-${index}` ? 'Hide Team' : 'Show Team'}</span>
+                          {expandedTeamMember === `exec-${index}` ? (
+                            <ChevronDown className="h-4 w-4" />
+                          ) : (
+                            <ChevronRight className="h-4 w-4" />
+                          )}
+                        </button>
+                      )}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          {/* Executives Carousel */}
-          <div className="mb-12">
-            <h3
-              className={`text-2xl font-semibold ${isDarkMode ? "text-white" : "text-[#052f28]"} text-center mb-8 transition-colors duration-300`}
-            >
-              {t.team.executive}
-            </h3>
-            <div className="relative max-w-4xl mx-auto">
-              <div className="flex justify-center items-center space-x-6">
-                <button
-                  onClick={() => setExecutiveCarousel(Math.max(0, executiveCarousel - 1))}
-                  className={`p-2 rounded-full ${isDarkMode ? "bg-[#dff944] text-[#052f28] hover:bg-[#a0e019]" : "bg-[#052f28] text-white hover:bg-[#0a2b24]"} transition-all duration-300 disabled:opacity-50 hover:scale-110`}
-                  disabled={executiveCarousel === 0}
-                >
-                  <ChevronLeft className="h-6 w-6" />
-                </button>
-
-                <div className="grid md:grid-cols-2 gap-6 flex-1 max-w-2xl">
-                  {t.team.executives.slice(executiveCarousel, executiveCarousel + 2).map((exec, index) => (
-                    <div
-                      key={executiveCarousel + index}
-                      className={`bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-500 cursor-pointer transform hover:scale-105 ${teamInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
-                      style={{ transitionDelay: `${index * 200}ms` }}
-                      onClick={() => toggleTeamMember(`exec-${executiveCarousel + index}`)}
-                    >
-                      <div className="flex items-center justify-between mb-4">
+                {/* Team Members - Expandable */}
+                {exec.team && exec.team.length > 0 && (
+                  <div
+                    className={`mt-4 space-y-3 overflow-hidden transition-all duration-500 ${
+                      expandedTeamMember === `exec-${index}` ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    }`}
+                  >
+                    {exec.team.map((member: any, memberIndex: number) => (
+                      <div
+                        key={memberIndex}
+                        className={`bg-gradient-to-br ${isDarkMode ? "from-[#052f28]/50 to-[#0a2b24]/50" : "from-gray-50 to-white"} p-4 rounded-lg border ${isDarkMode ? "border-[#dff944]/10" : "border-gray-200"} transition-all duration-300 hover:shadow-md`}
+                      >
                         <div className="flex items-center space-x-3">
-                          <div className="w-12 h-12 bg-[#a0e019] rounded-full flex items-center justify-center transition-transform duration-300 hover:rotate-12">
-                            <Brain className="h-6 w-6 text-[#052f28]" />
+                          <div className={`w-12 h-12 bg-gradient-to-br ${memberIndex % 2 === 0 ? "from-[#dff944]/20 to-[#a0e019]/20" : "from-[#a0e019]/20 to-[#dff944]/20"} rounded-full flex items-center justify-center overflow-hidden p-0.5`}>
+                            <img 
+                              src={member.photo} 
+                              alt={member.name}
+                              className="w-full h-full object-cover rounded-full"
+                            />
                           </div>
-                          <div>
-                            <h4 className="font-semibold text-[#052f28]">{exec.name}</h4>
-                            <p className="text-sm text-[#042e25]">{exec.role}</p>
+                          <div className="flex-1">
+                            <h5 className={`font-semibold text-sm ${isDarkMode ? "text-white" : "text-[#052f28]"}`}>
+                              {member.name}
+                            </h5>
+                            <p className={`text-xs ${isDarkMode ? "text-gray-400" : "text-gray-500"}`}>
+                              {member.role}
+                            </p>
                           </div>
                         </div>
-                        {expandedTeamMember === `exec-${executiveCarousel + index}` ? (
-                          <Minus className="h-5 w-5 text-[#a0e019] transition-transform duration-300 hover:scale-110" />
-                        ) : (
-                          <Plus className="h-5 w-5 text-[#a0e019] transition-transform duration-300 hover:scale-110" />
-                        )}
                       </div>
-                      <div
-                        className={`overflow-hidden transition-all duration-300 ${
-                          expandedTeamMember === `exec-${executiveCarousel + index}`
-                            ? "max-h-20 opacity-100"
-                            : "max-h-0 opacity-0"
-                        }`}
-                      >
-                        <p className="text-sm text-[#042e25]">{exec.bio}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-                <button
-                  onClick={() => setExecutiveCarousel(Math.min(t.team.executives.length - 2, executiveCarousel + 1))}
-                  className={`p-2 rounded-full ${isDarkMode ? "bg-[#dff944] text-[#052f28] hover:bg-[#a0e019]" : "bg-[#052f28] text-white hover:bg-[#0a2b24]"} transition-all duration-300 disabled:opacity-50 hover:scale-110`}
-                  disabled={executiveCarousel >= t.team.executives.length - 2}
-                >
-                  <ChevronRight className="h-6 w-6" />
-                </button>
+                    ))}
+                  </div>
+                )}
               </div>
-
-              {/* Carousel indicators */}
-              <div className="flex justify-center mt-4 space-x-2">
-                {Array.from({ length: Math.ceil(t.team.executives.length / 2) }).map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => setExecutiveCarousel(index)}
-                    className={`w-3 h-3 rounded-full transition-all duration-300 hover:scale-125 ${
-                      Math.floor(executiveCarousel / 2) === index
-                        ? "bg-[#a0e019]"
-                        : isDarkMode
-                          ? "bg-gray-400"
-                          : "bg-gray-300"
-                    }`}
-                  />
-                ))}
-              </div>
-            </div>
-          </div>
-
-          {/* Managers Carousel */}
-          <div>
-            <h3
-              className={`text-2xl font-semibold ${isDarkMode ? "text-white" : "text-[#052f28]"} text-center mb-8 transition-colors duration-300`}
-            >
-              {t.team.management}
-            </h3>
-            <div className="relative max-w-5xl mx-auto">
-              <div className="flex justify-center items-center space-x-6">
-                <button
-                  onClick={() => setManagerCarousel(Math.max(0, managerCarousel - 1))}
-                  className={`p-2 rounded-full ${isDarkMode ? "bg-[#dff944] text-[#052f28] hover:bg-[#a0e019]" : "bg-[#052f28] text-white hover:bg-[#0a2b24]"} transition-all duration-300 disabled:opacity-50 hover:scale-110`}
-                  disabled={managerCarousel === 0}
-                >
-                  <ChevronLeft className="h-6 w-6" />
-                </button>
-
-                <div className="grid md:grid-cols-3 gap-4 flex-1 max-w-4xl">
-                  {t.team.managers.slice(managerCarousel, managerCarousel + 3).map((manager, index) => (
-                    <div
-                      key={managerCarousel + index}
-                      className={`bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-500 cursor-pointer transform hover:scale-105 ${teamInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
-                      style={{ transitionDelay: `${index * 150}ms` }}
-                      onClick={() => toggleTeamMember(`manager-${managerCarousel + index}`)}
-                    >
-                      <div className="flex items-center justify-between mb-4">
-                        <div className="flex items-center space-x-3">
-                          <div className="w-10 h-10 bg-[#dff944] rounded-full flex items-center justify-center transition-transform duration-300 hover:rotate-12">
-                            <Award className="h-5 w-5 text-[#052f28]" />
-                          </div>
-                          <div>
-                            <h4 className="font-semibold text-[#052f28] text-sm">{manager.name}</h4>
-                            <p className="text-xs text-[#042e25]">{manager.role}</p>
-                          </div>
-                        </div>
-                        {expandedTeamMember === `manager-${managerCarousel + index}` ? (
-                          <Minus className="h-4 w-4 text-[#a0e019] transition-transform duration-300 hover:scale-110" />
-                        ) : (
-                          <Plus className="h-4 w-4 text-[#a0e019] transition-transform duration-300 hover:scale-110" />
-                        )}
-                      </div>
-                      <div
-                        className={`overflow-hidden transition-all duration-300 ${
-                          expandedTeamMember === `manager-${managerCarousel + index}`
-                            ? "max-h-20 opacity-100"
-                            : "max-h-0 opacity-0"
-                        }`}
-                      >
-                        <p className="text-xs text-[#042e25]">{manager.bio}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-                <button
-                  onClick={() => setManagerCarousel(Math.min(t.team.managers.length - 3, managerCarousel + 1))}
-                  className={`p-2 rounded-full ${isDarkMode ? "bg-[#dff944] text-[#052f28] hover:bg-[#a0e019]" : "bg-[#052f28] text-white hover:bg-[#0a2b24]"} transition-all duration-300 disabled:opacity-50 hover:scale-110`}
-                  disabled={managerCarousel >= t.team.managers.length - 3}
-                >
-                  <ChevronRight className="h-6 w-6" />
-                </button>
-              </div>
-
-              {/* Carousel indicators */}
-              <div className="flex justify-center mt-4 space-x-2">
-                {Array.from({ length: Math.ceil(t.team.managers.length / 3) }).map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => setManagerCarousel(index * 3)}
-                    className={`w-3 h-3 rounded-full transition-all duration-300 hover:scale-125 ${
-                      Math.floor(managerCarousel / 3) === index
-                        ? "bg-[#a0e019]"
-                        : isDarkMode
-                          ? "bg-gray-400"
-                          : "bg-gray-300"
-                    }`}
-                  />
-                ))}
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -1178,7 +1165,7 @@ export default function ArinaLanding() {
             >
               {t.faq.title}
             </h2>
-            <p className={`text-xl ${isDarkMode ? "text-gray-200" : "text-[#042e25]"} transition-colors duration-300`}>
+            <p className={`text-xl ${isDarkMode ? "text-gray-300" : "text-gray-600"} transition-colors duration-300`}>
               {t.faq.subtitle}
             </p>
           </div>
@@ -1186,7 +1173,7 @@ export default function ArinaLanding() {
             {t.faq.questions.map((faq, index) => (
               <div
                 key={index}
-                className={`border ${isDarkMode ? "border-[#a0e019]/30 bg-[#052f28]/50" : "border-gray-200"} rounded-lg transition-all duration-500 ${faqInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
+                className={`border ${isDarkMode ? "border-[#a0e019]/30 bg-[#052f28]/50" : "border-gray-200 bg-white"} rounded-lg transition-all duration-500 ${faqInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <button
@@ -1199,9 +1186,9 @@ export default function ArinaLanding() {
                     {faq.question}
                   </span>
                   {expandedFaq === `faq${index + 1}` ? (
-                    <ChevronDown className="h-5 w-5 text-[#a0e019] transition-transform duration-300 hover:scale-110" />
+                    <ChevronDown className={`h-5 w-5 ${isDarkMode ? "text-[#dff944]" : "text-[#a0e019]"} transition-transform duration-300 hover:scale-110`} />
                   ) : (
-                    <ChevronRight className="h-5 w-5 text-[#a0e019] transition-transform duration-300 hover:scale-110" />
+                    <ChevronRight className={`h-5 w-5 ${isDarkMode ? "text-[#dff944]" : "text-[#a0e019]"} transition-transform duration-300 hover:scale-110`} />
                   )}
                 </button>
                 <div
@@ -1210,7 +1197,7 @@ export default function ArinaLanding() {
                   }`}
                 >
                   <div className="px-6 pb-4">
-                    <p className={`${isDarkMode ? "text-gray-200" : "text-[#042e25]"} transition-colors duration-300`}>
+                    <p className={`${isDarkMode ? "text-gray-300" : "text-gray-700"} transition-colors duration-300`}>
                       {faq.answer}
                     </p>
                   </div>
