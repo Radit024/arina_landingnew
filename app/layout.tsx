@@ -4,9 +4,14 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Arina',
-  description: '',
+  title: 'Arina - Transform Your Farming Into Modern Farming',
+  description: 'Transform Your Farming Decisions with AI',
   generator: 'Arina.dev',
+  icons: {
+    icon: '/Arina logo.png',
+    shortcut: '/Arina logo.png',
+    apple: '/Arina logo.png',
+  },
 }
 
 export default function RootLayout({
