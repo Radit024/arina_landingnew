@@ -1,12 +1,13 @@
 {
-  "name": "my-Arina-project",
+  "name": "arina-landingpagenew",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "pnpm store prune"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
